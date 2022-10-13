@@ -2,15 +2,14 @@
 
 
 
-/**
+/**  
+ * main - Print a string
  *
- *  * main - Print a string
+ * Description: use printf
  *
- *   * Description: use printf
+ * Return: 0
  *
- *    * Return: 0
- *
- *     */
+ */
 
 
 
