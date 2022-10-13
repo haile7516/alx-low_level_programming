@@ -1,11 +1,8 @@
 #include <unistd.h>
 
 /**
- *
  * main - write a string to the standard error
- *
  * Return: 1 at the end
- *
  */
 
 int main(void)
