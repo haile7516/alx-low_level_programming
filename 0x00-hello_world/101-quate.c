@@ -1,22 +1,21 @@
-#include <stdio.h>
-
-#include <stdlib.h>
-
-
+#include <unistd.h>
 
 /**
- * main - Entry point
- * Return: Always 1 (Success)
+ *
+ * main - write a string to the standard error
+ *
+ * Return: 1 at the end
+ *
  */
 
 int main(void)
 
 {
 
-        write(STDOUT_FILENO, "and that piece of art is useful\" - Dora Korpar, 
-			
-	2015-10-19\n", 59);
+char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	return (1);
+write(2, str, 59);
+
+return (1);
 
 }
