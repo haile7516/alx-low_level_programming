@@ -30,15 +30,15 @@ int main(void)
 
 		if (num == 9)
 
-			continue;
+													continue;
 
 												
 
-												putchar(',');
+		putchar(',');
 
 												putchar(' ');
 
-	}
+											}
 
 
 
