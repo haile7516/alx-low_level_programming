@@ -1,26 +1,21 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * print_alphabet - prints the english alphabet from a-z.
- * Return: Nothing.
+ * print_alphabet - check the code for ALX School students.
+ *
+ * Return: Always 0.
  */
 
 void print_alphabet(void)
-
 {
+	char alp = 'a';
 
-	char c;
-
-
-
-	for (c = 'a'; c <= 'z'; c++)
-
+	while (alp <= 'z')
 	{
-
-		_putchar(c);
+		_putchar (alp);
+		alp++;
 
 	}
-
-	_putchar('\n');
+	_putchar ('\n');
 
 }
